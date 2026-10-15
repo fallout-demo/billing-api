@@ -1,0 +1,16 @@
+{
+  "name": "billing-api",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Invoices and payment webhooks for the storefront.",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "test": "node --test" },
+  "dependencies": {
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "pg": "^8.13.0",
+    "stripe": "^17.2.0",
+    "zod": "^3.24.0",
+    "@sentry/node": "^8.35.0"
+  }
+}
